@@ -1,0 +1,23 @@
+{
+    "name": "daejong-notion-converter",
+    "version": "1.0.0",
+    "description": "대종경 JSON 파일을 Notion 데이터베이스로 자동 변환하는 도구",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+      "dev": "node src/index.js",
+      "start": "node src/index.js"
+    },
+    "keywords": [
+      "notion",
+      "대종경",
+      "json",
+      "converter"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "@notionhq/client": "^2.2.14",
+      "dotenv": "^16.3.1"
+    }
+  }
